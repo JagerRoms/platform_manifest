@@ -22,7 +22,6 @@
 
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
-  <project path="development" name="android_development" remote="jager" />
 
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
