@@ -9,8 +9,7 @@
   <remote name="cm" fetch="http://github.com/CyanogenMod/" />
   <default revision="froyo"
            remote="korg" />
-
-  <project path="build" name="jagerroms" remote="jager">
+  <project path="build" name="android_build" remote="cvpcs" revision="froyo-gem">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
