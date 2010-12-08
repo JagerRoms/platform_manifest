@@ -7,6 +7,10 @@
   <remote name="jager" fetch="git://github.com/JagerRoms/" />
   <remote name="cvpcs" fetch="git://github.com/cvpcs/" />
   <remote name="cm" fetch="http://github.com/CyanogenMod/" />
+  <remote name="ChainsDD" fetch="git://github.com/ChainsDD/" />
+  <remote name="kruton" fetch="git://github.com/kruton/" />
+  <remote name="dylex" fetch="git://github.com/dylex/" />
+  <remote name="koush" fetch="git://github.com/koush/" />
   <default revision="froyo"
            remote="korg" />
   <project path="build" name="android_build" remote="cvpcs" revision="froyo-gem">
@@ -27,7 +31,7 @@
   <project path="device/htc/inc" name="android_device_htc_inc" remote="jager" />
   <project path="device/sample" name="device/sample" />
 
-    <project path="external/apache-http" name="platform/external/apache-http" />
+  <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
