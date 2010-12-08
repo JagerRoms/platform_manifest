@@ -27,23 +27,19 @@
   <project path="device/htc/inc" name="android_device_htc_inc" remote="jager" />
   <project path="device/sample" name="device/sample" />
 
-  <project path="external/apache-http" name="platform/external/apache-http" />
+    <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-froyo" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/clearsilver" name="platform/external/clearsilver" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/elfcopy" name="platform/external/elfcopy" />
   <project path="external/elfutils" name="platform/external/elfutils" />
@@ -52,7 +48,6 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
-  <project path="external/flac" name="kruton/android_external_flac" remote="github" revision="master" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -70,9 +65,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="froyo" />
   <project path="external/libffi" name="platform/external/libffi" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-froyo" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libxml2" name="platform/external/libxml2" />
@@ -80,15 +73,13 @@
   <project path="external/netcat" name="platform/external/netcat" />
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
-  <project path="external/opencore" name="platform/external/opencore" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
-  <project path="external/qemu" name="platform/external/qemu"  revision="tools_r6"/>
+  <project path="external/qemu" name="platform/external/qemu" revision="tools_r6"/>
   <project path="external/quake" name="platform/external/quake" />
-  <project path="external/rsync" name="dylex/android_external_rsync" remote="github" revision="master" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -107,8 +98,25 @@
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib" />
+    <project path="external/bash" name="android_external_bash" remote="cvpcs" revision="bash-4.1-froyo" />
+    <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="cvpcs" revision="froyo-gem" />
+    <project path="external/busybox" name="android_external_busybox" remote="cvpcs" revision="froyo" />
+    <project path="external/compcache" name="android_external_compcache" remote="cvpcs" revision="compcache-0.6.2-froyo" />
+    <project path="external/cwiid" name="android_external_cwiid" remote="cvpcs" revision="cwiid-0.6.00-froyo" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cvpcs" revision="master" />
+    <project path="external/flac" name="android_external_flac" remote="kruton" revision="master" />
+    <project path="external/hijack" name="android_external_hijack" remote="cvpcs" revision="froyo" />
+    <project path="external/knock" name="android_external_knock" remote="cvpcs" revision="knock-0.5-froyo" />
+    <project path="external/libc-ext" name="android_external_libc-ext" remote="cvpcs" revision="froyo" />
+    <project path="external/libncurses" name="android_external_libncurses" remote="cvpcs" revision="libncurses-5.7-froyo" />
+    <project path="external/lsof" name="android_external_lsof" remote="cvpcs" revision="lsof-4.84-froyo" />
+    <project path="external/nano" name="android_external_nano" remote="cvpcs" revision="nano-2.2.4-froyo" />
+    <project path="external/opencore" name="android_external_opencore" remote="cvpcs" revision="froyo" />
+    <project path="external/rsync" name="android_external_rsync" remote="dylex" revision="master" />
+    <project path="external/scriptybox" name="android_external_scriptybox" remote="cvpcs" revision="froyo" />
+    <project path="external/vixie-cron" name="android_external_vixie-cron" remote="cvpcs" revision="vixie-cron-4.1-froyo" />
+    <project path="external/yaffs2" name="android_external_yaffs2" remote="koush" revision="froyo" />
 
   <project path="frameworks/base" name="android_frameworks_base" remote="jager" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
